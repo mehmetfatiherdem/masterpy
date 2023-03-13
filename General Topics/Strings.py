@@ -20,12 +20,32 @@ txt = "Time is money"
 ## starts from 0 by default
 
 a = "Hello, World!"
-print(a[3:8]) # lo, W
+#print(a[3:8]) # lo, W
 
-print(a[:5]) # Hello
+#print(a[:5]) # Hello
 
-print(a[7:]) # World!
+#print(a[7:]) # World!
 
-print(a[-5:-2]) # orl
+#print(a[-5:-2]) # orl
 
-print(a[1:9:2]) # el,W
+#print(a[1:9:2]) # el,W
+
+
+### Modify Strings ###
+
+t = "Hello, World!"
+
+#HELLO, WORLD!
+print(t.upper())
+#hello, world!
+print(t.lower())
+
+a = " hello, world! "
+
+#hello, world!
+print(a.strip())
+#Jello, World!
+print(t.replace("H", "J"))
+#['Hello', ' World!']
+print(t.split(","))
+
